@@ -1,0 +1,22 @@
+services:
+  w3schools-db:
+    image: mysql:8.4
+    container_name: w3schools-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: w3schools
+      MYSQL_USER: w3
+      MYSQL_PASSWORD: w3
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_0900_ai_ci"]
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+      - w3schools-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-proot"]
+      interval: 5s
+      retries: 30
+
+volumes:
+  w3schools-data:
