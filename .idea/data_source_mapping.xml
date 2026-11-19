@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/L3-Joins/sql/example01_cartesian_product.sql" value="10ba1097-e8a0-4419-a010-44952ed4b1ec" />
+    <file url="file://$PROJECT_DIR$/L3-Joins/sql/example02_aliases.sql" value="10ba1097-e8a0-4419-a010-44952ed4b1ec" />
+    <file url="file://$PROJECT_DIR$/L3-Joins/sql/example05_left_right_join.sql" value="10ba1097-e8a0-4419-a010-44952ed4b1ec" />
+    <file url="file://$PROJECT_DIR$/L3-Joins/sql/example06_full_outer_join.sql" value="10ba1097-e8a0-4419-a010-44952ed4b1ec" />
+    <file url="file://$PROJECT_DIR$/L3-Joins/sql/example07_self_join.sql" value="10ba1097-e8a0-4419-a010-44952ed4b1ec" />
+    <file url="file://$PROJECT_DIR$/L3-Joins/sql/example08_subquery_scalar.sql" value="10ba1097-e8a0-4419-a010-44952ed4b1ec" />
+    <file url="file://$PROJECT_DIR$/L3-Joins/sql/example11_with_cte.sql" value="10ba1097-e8a0-4419-a010-44952ed4b1ec" />
+  </component>
+</project>
